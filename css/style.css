@@ -1,0 +1,92 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+font-size: 14px;
+line-height: 1.7em;
+font-family: 'Bebas Neue', cursive;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Alfa Slab One', cursive;
+}
+img{
+max-width: 100%;
+height: auto;
+}
+a{
+text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+}
+.header{
+width: 100%;
+padding: 40px 0px;
+background: url("../images/bg.png")center top no-repeat;
+background-size: cover;
+}
+.main-menu .logo{
+margin: 15px 0px 0px;
+}
+.main-menu .text-right{
+font-family: 'Montserrat', sans-serif;
+text-align: right;
+font-size: 14px;
+font-weight: 700;
+margin: 0px 20px 2px 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+padding-left: var(--bs-navbar-nav-link-padding-x);
+font-size: 16px;
+text-transform: uppercase;
+font-size: 600;
+font-weight: 600;
+letter-spacing: 2px;
+margin: 0px 0px 0px 20px;
+color: #3d2514;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+color: #bf2222;
+}
+.banner{
+width: 100%;
+padding: 40px 0px;
+}
+.inner-banner{
+	width: 100%;
+	margin: 140px 0px 0px;
+}
+.inner-banner h5{
+font-family: 'Bebas Neue', cursive;
+font-size: 24px;
+font-weight: 300;
+line-height: 1.2em;
+color: #3d2514;
+letter-spacing: 1px;
+}
+.inner-banner h5 span{
+padding: 10px;
+border: 1px dashed #3d2514;
+font-size: 16px;
+margin: 0px 0px 15px;
+display: inline-block;
+}
+.inner-banner h1{
+font-size: 110px;
+font-weight: 700;
+line-height: 1.2em;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #3d2514;
+text-shadow: 5px 4px #fee8bb;
+}
+.inner-banner h3{
+font-size: 70px;
+font-weight: 700;
+line-height: 1.2em;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #3d2514;
+text-shadow: 5px 4px #fee8bb;
+}
